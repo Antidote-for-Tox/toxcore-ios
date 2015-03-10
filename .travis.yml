@@ -8,4 +8,5 @@ before_script:
     - brew unlink xctool
     - brew install xctool
     - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+    - gem update cocoapods
 script: pod lib lint
