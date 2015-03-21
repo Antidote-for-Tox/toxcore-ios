@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "toxcore-ios"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Cocoapods wrapper for toxcore"
   s.homepage         = "https://github.com/dvor/toxcore-ios"
   s.license          = 'GPLv3'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'toxcore/toxcore/*.{c,h}'
-  s.public_header_files = 'toxcore/toxcore/*.h'
+  s.source_files = 'toxcore/toxcore/*.{c,h}','toxcore/toxav/*.{c,h}'
+  s.public_header_files = 'toxcore/toxcore/*.h','toxcore/toxav/*.h'
   s.dependency 'libsodium', '~> 1.0.1'
 end
