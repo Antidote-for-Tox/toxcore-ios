@@ -1,3 +1,6 @@
 [submodule "toxcore"]
 	path = toxcore
 	url = https://github.com/irungentoo/toxcore.git
+[submodule "libvpx"]
+	path = libvpx
+	url = http://git.chromium.org/webm/libvpx.git
